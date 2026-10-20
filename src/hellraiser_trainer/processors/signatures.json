@@ -1,0 +1,11 @@
+{
+  "game": "Clive Barker's Hellraiser: Revival",
+  "build": "1.4.2",
+  "scanned": "2026-01-11",
+  "signatures": {
+    "health_ptr": "48 8B 05 ? ? ? ? 48 85 C0",
+    "pin_count": "89 05 ? ? ? ? 83 F8",
+    "cenobite_hp": "48 8B 0D ? ? ? ? 8B 01 89 02",
+    "puzzle_state": "F3 0F 11 05 ? ? ? ? 8B 4D"
+  }
+}
