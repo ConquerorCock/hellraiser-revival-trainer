@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hellraiser-revival-trainer"
+version = "0.9.3"
+description = "External trainer and overlay for Clive Barker's Hellraiser: Revival (2026)"
+requires-python = ">=3.11"
+authors = [{ name = "revival-trainer contributors" }]
+dependencies = [
+    "pywin32>=306",
+    "rich>=13.7",
+]
+
+[project.scripts]
+hellraiser-trainer = "hellraiser_trainer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
